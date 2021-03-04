@@ -12,8 +12,6 @@ var divisionHeight=300;
 var score =0;
 var count = 0;
 var gameState ="start";
-var scoringSound;
-var gameOver_Sound;
 
 
 function setup() {
@@ -66,10 +64,10 @@ function draw() {
   
   if ( gameState =="end") {
     
-    gameOver_Sound.play();
+   
     textSize(90);
     text("GameOver", 150, 300);
-    //return
+
   }
 
   

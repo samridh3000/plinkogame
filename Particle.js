@@ -7,7 +7,7 @@ class Particle {
         this.r=r;
       
         this.body = Bodies.circle(x, y, this.r,options);       
-        this.color=color(random(0, 255), random(0, 255), random(0, 255));
+        this.color= "white"
         World.add(world, this.body);
 
     }
